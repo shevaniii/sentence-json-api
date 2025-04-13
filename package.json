@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch db.json"
+    "start": "npx json-server --watch db.json --port 10000"
 
   },
+  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
