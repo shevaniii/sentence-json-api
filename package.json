@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch db.json --port $PORT"
+    "start": "json-server --watch db.json --port $PORT --no-static"
+
   },
   "type": "module",
   "keywords": [],
